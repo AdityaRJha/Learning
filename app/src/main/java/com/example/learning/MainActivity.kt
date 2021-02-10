@@ -13,7 +13,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         val rollButton: Button = findViewById(R.id.roll_button)
-        val diceImage: ImageView = findViewById(R.id.diceImage)
         rollButton.setOnClickListener{
             rollDice()
         }
